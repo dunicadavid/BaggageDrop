@@ -1,0 +1,2 @@
+# BaggageDrop
+This is a Verilog program which implements a module for a helicopter to help the pilot to deploy the baggage in time. The module is create using 3 other modules: sensors_input (which interprets the data from the 4 sensors and calculates the height to the ground), square_root (calculates the square root of a binary num using Cordic algorithm -> the helicopter needs to go to the ground in a range of time t, t=sqrt(height)/2), display_and_drop (check if the aria and time of drop is good and shows on a 4 element 7seq display the result).
